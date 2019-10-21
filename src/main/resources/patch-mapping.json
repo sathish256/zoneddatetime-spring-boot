@@ -1,0 +1,15 @@
+{
+    "description": "PDM verison 2.4.2",
+    "mapping": [
+        {
+            "fieldName": "secondaryObjectArray",
+            "className": "com.sat.poc.patch.api.SecondaryObject",
+            "keys": "secondaryId"
+        },
+        {
+            "fieldName": "thirdLevelObjectArray",
+            "className": "com.sat.poc.patch.api.ThirdLevelObject",
+            "keys": "complexId1"
+        }
+    ]
+}
